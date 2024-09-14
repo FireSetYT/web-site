@@ -156,10 +156,22 @@ body {
 
 .hero {
 	height: 600px;
-	background: #2F303A;
+	background: url(/img/img-bagr.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	left: 20%;
 	display: flex;
 	align-items: center;
 	text-align: center;
+}
+
+
+.hero-beg::after {
+	content: "";
+	position: absolute;
+	height: 600px;
+	width: 1600px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-title {
