@@ -390,6 +390,53 @@ body {
 	fill: #fff;
 }
 
+/* COSTUMERS */
+
+.customers {}
+
+.customers-title {
+	font-weight: 700;
+	font-size: 36px;
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+.customers-icon {
+	display: flex;
+	height: 60px;
+	width: 106px;
+	fill: #ccc;
+	transition: fill .5s linear;
+}
+
+
+.customers-icon:hover {
+	fill: #2196F3;
+}
+
+.customers-card {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	border: #AFB1B8 solid 1px;
+	border-radius: 4px;
+	transition: fill .5s linear;
+}
+
+.customers-card:hover {
+	border: #2196F3 solid 1px;
+}
+
+.customers-cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	margin: 92px;
+}
+
+
 /* FILTER MENU */
 
 
@@ -529,4 +576,53 @@ body {
 
 .footer-menu-item:hover {
 	color: #1385e2;
+}
+
+
+.list-footer {
+	display: flex;
+	gap: 10px;
+	margin: -74px 32px 30px;
+}
+
+.list-footer a {
+	line-height: 10px;
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #212121;
+	border-radius: 50%;
+	transition: all .5s linear;
+}
+
+.list-footer svg {
+	width: 20px;
+	height: 20px;
+	fill: #AFB1B8;
+	transition: fill .5s linear;
+}
+
+.list-footer a:hover {
+	background: #2196F3;
+}
+
+.list-footer a:hover svg {
+	fill: #fff;
+}
+
+.footer-icons {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.footer-title {
+	font-weight: 700;
+	display: flex;
+	margin: -107px 32px 30px;
+	margin-right: 170px;
+	position: absolute;
+
 }
